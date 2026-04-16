@@ -1,0 +1,42 @@
+Total test samples: 2468
+Total failures: 279
+Overall Accuracy: 0.8870
+
+--- Common Confusion Pairs ---
+glass_box -> tv_stand: 15 cases
+plant -> flower_pot: 15 cases
+dresser -> night_stand: 14 cases
+flower_pot -> plant: 13 cases
+table -> desk: 13 cases
+vase -> cup: 12 cases
+night_stand -> dresser: 9 cases
+night_stand -> table: 6 cases
+flower_pot -> vase: 5 cases
+wardrobe -> bookshelf: 5 cases
+cup -> vase: 4 cases
+glass_box -> night_stand: 4 cases
+bottle -> vase: 3 cases
+desk -> night_stand: 3 cases
+desk -> table: 3 cases
+
+--- Failure Cases List ---
+Index: 36, True: piano, Pred: table
+Index: 38, True: vase, Pred: cup
+Index: 43, True: night_stand, Pred: table
+Index: 55, True: dresser, Pred: night_stand
+Index: 58, True: wardrobe, Pred: night_stand
+Index: 61, True: wardrobe, Pred: xbox
+Index: 70, True: guitar, Pred: airplane
+Index: 73, True: xbox, Pred: dresser
+Index: 82, True: plant, Pred: flower_pot
+Index: 83, True: desk, Pred: dresser
+Index: 85, True: table, Pred: night_stand
+Index: 104, True: flower_pot, Pred: plant
+Index: 127, True: tv_stand, Pred: bookshelf
+Index: 130, True: desk, Pred: night_stand
+Index: 142, True: piano, Pred: table
+Index: 152, True: flower_pot, Pred: plant
+Index: 161, True: bathtub, Pred: table
+Index: 171, True: dresser, Pred: night_stand
+Index: 179, True: person, Pred: curtain
+Index: 207, True: tv_stand, Pred: bookshelf
