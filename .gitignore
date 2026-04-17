@@ -1,0 +1,20 @@
+# Datasets
+code/data/
+data/
+
+# Models
+*.pth
+*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Experiments
+code/eval_*.txt
+code/failure_cases.txt
